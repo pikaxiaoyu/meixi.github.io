@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.copyright {
+  margin-top: -20px;
+}
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#content #member_box {
+  min-height: 517px;
+  position: relative;
+  background: url(../img/bg_main.jpg) right top no-repeat;
+}
+#content #member_box .pic1 {
+  position: absolute;
+  top: 27px;
+  left: 66px;
+}
+#content #member_box p.money {
+  color: #8E0C3A;
+  font-size: 17px;
+  font-family: "微软雅黑";
+  position: absolute;
+  left: 211px;
+  top: 166px;
+}
+#content #member_box p.money em {
+  font-style: normal;
+  font-weight: bold;
+}
+#content #member_box #rigister_box {
+  padding: 200px 0 0 104px;
+}
+#content #member_box #rigister_box input {
+  outline: none;
+}
+#content #member_box #rigister_box .user {
+  margin-top: 26px;
+}
+#content #member_box #rigister_box .check:after {
+  content: "";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+#content #member_box #rigister_box .check #chk_b {
+  width: 12px;
+  margin-left: 67px;
+  float: left;
+}
+#content #member_box #rigister_box .check label {
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #6C6C6C;
+  margin-top: -2px;
+  padding-left: 4px;
+  float: left;
+}
+#content #member_box #rigister_box #register_btn {
+  margin-left: 67px;
+  margin-top: 20px;
+}
+#content #member_box #rigister_box #register_btn span {
+  display: block;
+  width: 204px;
+  height: 30px;
+  color: #fff;
+  background: #8E0C3A;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#content #member_box #rigister_box #register_btn p {
+  padding-top: 8px;
+  padding-left: 134px;
+  font-size: 12px;
+  color: #8E0C3A;
+}
+#content #member_box #rigister_box #register_btn p a {
+  color: #8E0C3A;
+}
+#content #member_box #rigister_box #register_btn p em {
+  font-style: normal;
+  font-size: 12px;
+  color: #6C6C6C;
+}
+#content #member_box #rigister_box p#error {
+  padding-top: 10px;
+  color: #8E0C3A;
+  clear: both;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  margin-left: 67px;
+}
+#content #member_box #rigister_box .input_zone {
+  height: 40px;
+}
+#content #member_box #rigister_box .input_zone span {
+  font-family: "微软雅黑";
+  color: #666;
+  font-size: 12px;
+}
+#content #member_box #rigister_box .input_zone input {
+  width: 200px;
+  height: 20px;
+  padding: 0 0 0 2px;
+  margin-left: 4px;
+  line-height: 20px;
+  border: 1px solid #bbb;
+  font-size: 12px;
+  background-color: #fff;
+  color: #666;
+}

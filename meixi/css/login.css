@@ -1,0 +1,18 @@
+.psw .check {
+  margin-top: 18px; }
+  .psw .check label {
+    padding-top: 4px; }
+  .psw .check span {
+    display: block;
+    padding-top: 2px;
+    margin-left: 220px;
+    cursor: pointer;
+    color: #ccc !important; }
+
+#register_btn span {
+  display: block;
+  margin-top: 40px;
+  cursor: pointer; }
+#register_btn p {
+  margin-top: 4px;
+  margin-left: 22px; }

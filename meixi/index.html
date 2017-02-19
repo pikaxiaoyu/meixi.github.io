@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    <script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header">
+           <div class="header_bar">
+           	<!--注册、登录、订单查询-->
+           	 <div class="login_info">
+           	 	 <div class="register">
+           	 		<a href="register.html" target="_self" class="reg1">注册</a>
+           	 		<a href="login.html" target="_self" class="reg2">登录</a>
+           	 	</div>
+           	 	<div class="search" title="订单查询">
+           	 		<a href="#">订单查询</a>
+           	 	</div>
+           	 </div>
+           	 <!--客服热线...-->
+           	 <div class="focus_info">
+           	 	<div class="client_p">
+           	 		<span>客服热线 : 4000-250-630</span>
+           	 	</div>
+           	 	<div class="focus_us" title="关注我们">
+           	 		<span>关注我们<em></em></span>
+           	 		<div class="sina_wechat">
+           	 			<div class="sina">
+               	 			<img src="img/fou_sina.gif"  />
+               	 			<a href="#">新浪微博</a>
+           	 			</div>
+           	 			<div class="wechat">
+            	 			<img src="img/fou_wechat.gif"  />
+               	 			<a href="#">美西微信</a>
+           	 			</div>
+           	 		</div>
+           	 	</div>                   
+           	 </div>
+           </div>
+           
+           <!------------------header_top------------------->
+           <div class="header_top">
+           	   <div class="code">
+           	   	<img src="img/ewm_indextop.png" />
+           	   </div>
+           	   <div class="fasion">
+           	   	<img src="img/ewm_txt.png" />
+           	   </div>
+           	   <div class="logo">
+           	   	<img src="img/meicilogo.png"  />
+           	   </div>
+           	   <div class="search">
+           	   	  <div class="txt">
+           	   	  	<input type="text" value="请输入您的关键词" />
+           	   	  </div>
+           	   	  <div class="btn">
+           	   	  	<input type="button" />
+           	   	  </div>
+           	   </div>
+           </div>
+           <!----------fix-top滚动到一定距离显示------------------>
+           	<div class="fix_top">
+           		<div class="inner">
+           			<div class="site_name">
+           				<a href="#"><img src="img/logo.gif" width="200px" height="23px"/></a>
+           			</div>
+           			<div class="ipt">
+           				<input class="txt" type="text" value="请输入您的关键词"  />
+           			</div>
+           			<div class="anniu">
+           				<button class="btn"></button>
+           			</div>
+           			<div class="search_menu">
+           				<a href="#">
+           					<p style="float: right;">时尚导购</p>
+           					<img src="img/brands.png"  style="width: 16px;"/>
+           				</a>
+           			</div>
+           		</div>
+           	</div>
+           <!---------------------nav导航栏-------------------------->
+           	     <div class="main_nav">
+           	     	 <ul>
+            	     	 	<li><a href="index.html" class="menu1">首页</a></li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu2">新近单品</a>           	  
+            	     	 	    <div class="menu_info">
+            	     	 	    	<div class="menu_sm new_shop">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">今日上新</a></dt>
+            	     	 	    			<dt><a href="#">昨日上新</a></dt>
+            	     	 	    			<dt><a href="#">本周上新</a></dt>
+            	     	 	    		</dl>
+            	     	 	    		<dl>
+            	     	 	    			<dt><a href="#">男仕 Man</a></dt>
+            	     	 	    			<dd><a href="#">包袋 Bags</a></dd>
+            	     	 	    			<dd><a href="#">配饰 Accessories</a></dd>
+            	     	 	    			<dd><a href="#">鞋履 Shoes</a></dd>
+            	     	 	    			<dd><a href="#">服装 Clothes</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">女士 Woman</a></dt>
+            	     	 	    			<dd><a href="#">包袋 Bags</a></dd>
+            	     	 	    			<dd><a href="#">配饰 Accessories</a></dd>
+            	     	 	    			<dd><a href="#">鞋履 Shoes</a></dd>
+            	     	 	    			<dd><a href="#">服装 Clothes</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl4">
+            	     	 	    			<!--<dt><a href="#">今日推荐单品</a></dt>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>  
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>             	     	 	    			-->
+            	     	 	    		</dl>
+            	     	 	    		
+            	     	 	    	</div>
+            	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有男仕新品</a>
+            	     	 	    		<a href="#">所有女士新品</a>
+            	     	 	    	</div>
+            	     	 	    </div>
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu3">女士</a>
+             	     	 	    <div class="menu_info menu3_info">  
+            	     	 	    	<div class="menu_sm menu_girl">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">包袋 Bags</a></dt>
+            	     	 	    			<dd><a href="#">所有包袋</a></dd>
+            	     	 	    			<dd><a href="#">手提包 Totes</a></dd>
+            	     	 	    			<dd><a href="#">单肩包 Shoulder Bags</a></dd>
+            	     	 	    			<dd><a href="#">斜挎包 Messenger Bags</a></dd>
+                 	     	 	    	    <dd><a href="#">手拿包 Clutch Bags</a></dd>
+            	     	 	    			<dd><a href="#">旅行包 Travel Bags</a></dd>
+       	     	 	    			
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl2">
+            	     	 	    			<dt><a href="#">配饰 Accessories</a></dt>
+            	     	 	    			<dd><a href="#">所有配饰</a></dd>
+            	     	 	    			<dd><a href="#">钱包 Wallets</a></dd>
+            	     	 	    			<dd><a href="#">手表 Watches</a></dd>
+            	     	 	    			<dd><a href="#">太阳眼镜 Sunglasses</a></dd>
+            	     	 	    			<dd><a href="#">饰品 Jewelry</a></dd>
+            	     	 	    			<dd><a href="#">腰带 Belts</a></dd>
+            	     	 	    			<dd><a href="#">围巾 Scarf</a></dd>
+            	     	 	    			<dd><a href="#">数码周边 Technology</a></dd>
+            	     	 	    			<dd><a href="#">小配件 Small Acc.</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">鞋履 Shoes</a></dt>
+            	     	 	    			<dd><a href="#">所有鞋履</a></dd>
+            	     	 	    			<dd><a href="#">平底鞋 Flat Shoes</a></dd>
+            	     	 	    			<dd><a href="#">高跟鞋 Pumps</a></dd>
+            	     	 	    			<dd><a href="#">靴子 Boots</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">服装 Clothes</a></dt>
+            	     	 	    			<dd><a href="#">所有服装</a></dd>
+            	     	 	    			<dd><a href="#">卫衣 Hoodies</a></dd>
+            	     	 	    			<dd><a href="#">衬衫 Shirt</a></dd>
+            	     	 	    			<dd><a href="#">针织/毛衫 Knit/Sweater</a></dd>
+            	     	 	    			<dd><a href="#">夹克 Jacket</a></dd>
+            	     	 	    			<dd><a href="#">大衣/风衣 Coat/Dust Coat</a></dd>
+            	     	 	    		    <dd><a href="#">半裙 Skirts</a></dd>
+            	     	 	    		    <dd><a href="#">连衣裙 Dresses</a></dd>
+            	     	 	    		    <dd><a href="#">牛仔 Denims</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="pic">
+            	     	 	    			<a href="#">
+            	     	 	    			  <img src="img/14741960971088524836.jpg" width="305px" />            	     	 	    				
+            	     	 	    			</a>
+            	     	 	    		</dl>
+            	     	 	    	</div>
+            	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有女士商品</a>
+            	     	 	    	</div>
+            	     	 	    </div>           	     	 	
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu4">男仕</a>
+              	     	 	    <div class="menu_info menu4_info">  
+            	     	 	    	<div class="menu_sm menu_girl">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">包袋 Bags</a></dt>
+            	     	 	    			<dd><a href="#">所有包袋</a></dd>
+            	     	 	    			<dd><a href="#">手提包 Totes</a></dd>
+            	     	 	    			<dd><a href="#">单肩包 Shoulder Bags</a></dd>
+            	     	 	    			<dd><a href="#">斜挎包 Messenger Bags</a></dd>
+                 	     	 	    	    <dd><a href="#">手拿包 Clutch Bags</a></dd>
+            	     	 	    			<dd><a href="#">旅行包 Travel Bags</a></dd>
+       	     	 	    			
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl2">
+            	     	 	    			<dt><a href="#">配饰 Accessories</a></dt>
+            	     	 	    			<dd><a href="#">所有配饰</a></dd>
+            	     	 	    			<dd><a href="#">钱包 Wallets</a></dd>
+            	     	 	    			<dd><a href="#">手表 Watches</a></dd>
+            	     	 	    			<dd><a href="#">太阳眼镜 Sunglasses</a></dd>
+            	     	 	    			<dd><a href="#">腰带 Belts</a></dd>
+            	     	 	    			<dd><a href="#">围巾 Scarf</a></dd>
+            	     	 	    			<dd><a href="#">领带 Ties</a></dd>
+            	     	 	    			<dd><a href="#">数码周边 Technology</a></dd>
+            	     	 	    			<dd><a href="#">小配件 Small Acc.</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">鞋履 Shoes</a></dt>
+            	     	 	    			<dd><a href="#">所有鞋履</a></dd>
+            	     	 	    			<dd><a href="#">平底鞋 Flat Shoes</a></dd>
+            	     	 	    			<dd><a href="#">休闲鞋 Casual S...</a></dd>
+            	     	 	    			<dd><a href="#">正装鞋 Business...</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">服装 Clothes</a></dt>
+            	     	 	    			<dd><a href="#">所有服装</a></dd>
+            	     	 	    			<dd><a href="#">卫衣 Hoodies</a></dd>
+            	     	 	    			<dd><a href="#">T恤/POLO T-Shirt/POLO</a></dd>
+            	     	 	    			<dd><a href="#">衬衫 Shirt</a></dd>
+            	     	 	    			<dd><a href="#">西装套装 Suit</a></dd>
+            	     	 	    			<dd><a href="#">夹克 Jacket</a></dd>
+            	     	 	    			<dd><a href="#">大衣/风衣 Coat/Dust Coat</a></dd>
+            	     	 	    		    <dd><a href="#">羽绒服/棉衣 Down Jacket</a></dd>
+            	     	 	    		    <dd><a href="#">休闲裤 Casual Pants</a></dd>
+            	     	 	    		    <dd><a href="#">牛仔 Denims</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="pic">
+            	     	 	    			<a href="#">
+            	     	 	    			  <img src="img/1474196082282130944.jpg" width="305px" />            	     	 	    				
+            	     	 	    			</a>
+            	     	 	    		</dl>
+            	     	 	    	</div>
+            	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有男仕商品</a>
+            	     	 	    	</div>
+            	     	 	    </div>            	     	 	
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu5">童装</a>
+              	     	 	    <div class="menu_info menu5_info">  
+            	     	 	    	<div class="menu_sm menu_girl child">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">儿童</a></dt>
+            	     	 	    			<dd><a href="#">T恤/POLO T-Shirt/POLO</a></dd>
+            	     	 	    			<dd><a href="#">衬衫 Shirt</a></dd>
+            	     	 	    			<dd><a href="#">卫衣 Hoodies</a></dd>
+            	     	 	    			<dd><a href="#">羽绒服/棉衣 Down Jacket</a></dd>
+                 	     	 	    	    <dd><a href="#">连衣裙 Dresses</a></dd>
+            	     	 	    			<dd><a href="#">休闲裤 Casual Pants</a></dd>
+       	     	 	    			
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl2">
+            	     	 	    			<dt><a href="#">热门品牌</a></dt>
+            	     	 	    			<dd><a href="#">Gucci 古驰</a></dd>
+            	     	 	    			<dd><a href="#">Kenzo 高田贤三</a></dd>
+            	     	 	    			<dd><a href="#">Little Dickins & Jones</a></dd>
+            	     	 	    			<dd><a href="#">RIDERS ON THE STORM</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl4">
+<!--            	     	 	    			<dt><a href="#">今日推荐单品</a></dt>
+-->            	     	 	    			<!--<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>  
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>             	     	 	    			-->
+            	     	 	    		</dl>            	     	 	    		
+            	     	 	    		
+            	     	 	    	</div>
+            	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有童装商品</a>
+            	     	 	    	</div>
+            	     	 	    </div>             	     	 	
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu6">腕表</a>
+               	     	 	    <div class="menu_info menu6_info">  
+            	     	 	    	<div class="menu_sm watch">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">男仕腕表</a></dt>
+            	     	 	    			<dt><a href="#">女士腕表</a></dt>
+            	     	 	    			<dt><a href="#">石英表</a></dt>
+            	     	 	    			<dt><a href="#">机械表</a></dt>
+            	     	 	    		</dl>
+            	     	 	    		<dl>
+            	     	 	    			<dt><a href="#">热门品牌</a></dt>
+            	     	 	    			<dd><a href="#">sevenfriday</a></dd>
+            	     	 	    			<dd><a href="#">Calvin Klein 卡尔文·克莱恩</a></dd>
+            	     	 	    			<dd><a href="#">Daniel Wellington 丹尼尔·惠灵顿</a></dd>
+            	     	 	    			<dd><a href="#">Tissot 天梭</a></dd>
+            	     	 	    			<dd><a href="#">OMEGA 欧米茄</a></dd>
+            	     	 	    			<dd><a href="#">Longines 浪琴</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl4">
+            	     	 	    			<!--<dt><a href="#">今日推荐单品</a></dt>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>  
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/q-023681-1.jpg" />
+            	     	 	    					<div class="tj_info">
+            	     	 	    						<a href="#">Prada 普拉达</a>
+            	     	 	    						<a href="#">反毛皮 男仕 平底鞋 </a>
+            	     	 	    					</div>
+            	     	 	    				</a>
+            	     	 	    			</dd>             	     	 	    			-->
+            	     	 	    		</dl>            	     	 	    		
+            	     	 	    	</div>
+            	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有腕表商品</a>
+            	     	 	    	</div>
+            	     	 	    </div>            	     	 	
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu7">品牌</a>
+               	     	 	    <div class="menu_info menu7_info">  
+           	     	 	    	<div class="menu_sm menu_girl brand">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">国际大牌 Luxury Brand</a></dt>
+            	     	 	    			<dd><a href="#">Miu Miu 缪缪</a></dd>
+            	     	 	    			<dd><a href="#">Chanel 香奈儿</a></dd>
+            	     	 	    			<dd><a href="#">Roborto Cavalli 罗伯特·卡沃利</a></dd>
+            	     	 	    			<dd><a href="#">Neil Barrett 尼奥·贝奈特</a></dd>
+                 	     	 	    	    <dd><a href="#">Giorgio Armani 乔治·阿玛尼</a></dd>
+            	     	 	    			<dd><a href="#">Furla 芙拉</a></dd>
+            	     	 	    			<dd><a href="#">Issey Miyake 三宅一生</a></dd>
+            	     	 	    			<dd><a href="#">Chloe 蔻依</a></dd>
+       	     	 	    			
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl2">
+            	     	 	    			<dt><a href="#">设计师品牌 Designer Brand</a></dt>
+            	     	 	    			<dd><a href="#">Zatchels 剑桥包</a></dd>
+            	     	 	    			<dd><a href="#">Boy London 伦敦男孩</a></dd>
+            	     	 	    			<dd><a href="#">Maurizio Baldassari 毛里齐奥·巴达萨里</a></dd>
+            	     	 	    			<dd><a href="#">Jeffrey Campbell 杰弗里·坎贝尔</a></dd>
+            	     	 	    			<dd><a href="#">Circle</a></dd>
+            	     	 	    			<dd><a href="#">Luxury Hotel Collection</a></dd>
+            	     	 	    			<dd><a href="#">Linea Rosa 恋上罗莎</a></dd>
+            	     	 	    			<dd><a href="#">Rene Caovilla 芮妮·乔薇拉</a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3 tj_dapai">
+            	     	 	    			<!--<dt><a href="#">今日推荐大牌</a></dt>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/143.jpg">
+            	     	 	    					<div class="pic_info">
+            	     	 	    						<p>COMME des GARCONS</p>
+            	     	 	    						<p>川久保玲CdG</p>
+            	     	 	    					</div>
+           	      	    				        </a>            	     	 	    			
+            	     	 	    			</dd>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    				<img src="img/449.jpg">
+            	     	 	    				    <div class="pic_info">
+            	     	 	    				    	<p>See by Chloe</p>
+            	     	 	    				    	<p>河洛艾伊</p>
+            	     	 	    				    </div>
+            	     	 	    			</a>
+            	     	 	    			</dd>-->
+            	     	 	    		</dl>
+             	     	 	    		<dl class="dl3 designer">
+            	     	 	    			<!--<dt><a href="#">今日推荐设计师品牌</a></dt>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    					<img src="img/143.jpg">
+            	     	 	    					<div class="pic_info">
+            	     	 	    						<p>COMME des GARCONS</p>
+            	     	 	    						<p>川久保玲CdG</p>
+            	     	 	    					</div>
+           	      	    				        </a>            	     	 	    			
+            	     	 	    			</dd>
+            	     	 	    			<dd>
+            	     	 	    				<a href="#">
+            	     	 	    				<img src="img/449.jpg">
+            	     	 	    				    <div class="pic_info">
+            	     	 	    				    	<p>See by Chloe</p>
+            	     	 	    				    	<p>河洛艾伊</p>
+            	     	 	    				    </div>
+            	     	 	    			</a>
+            	     	 	    			</dd>-->
+            	     	 	    		</dl>
+            	     	 	    		
+            	     	 	    	</div>
+             	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有国际大牌商品</a>
+            	     	 	    		<a href="#">所有设计师品牌商品</a>
+            	     	 	    	</div>           	     	 	    	
+            	     	 	    </div>            	     	 	
+            	     	 	</li>
+            	     	 	<li>
+            	     	 		<a href="#" class="menu8">特惠区</a>
+              	     	 	    <div class="menu_info menu8_info">  
+           	     	 	    	<div class="menu_sm menu_girl menu_Preferential">
+            	     	 	    		<dl class="dl1">
+            	     	 	    			<dt><a href="#">国际大牌 Luxury Brand</a></dt>
+            	     	 	    			<dd><a href="#">Bally 巴利</a></dd>
+            	     	 	    			<dd><a href="#">Burberry 博柏利</a></dd>
+            	     	 	    			<dd><a href="#">Dolce&Gabbana 杜嘉班纳</a></dd>
+            	     	 	    			<dd><a href="#">Salvatore Ferragamo 菲拉格慕</a></dd>
+                 	     	 	    	    <dd><a href="#">Gucci 古驰</a></dd>
+            	     	 	    			<dd><a href="#">Prada 普拉达</a></dd>
+            	     	 	    			<dd><a href="#">Coach 蔻驰</a></dd>
+            	     	 	    			<dd><a href="#">Hermes 爱马仕</a></dd>
+       	     	 	    			
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl2">
+            	     	 	    			<dt><a href="#">男仕 Man</a></dt>
+            	     	 	    			<dd><a href="#">包装 Bags</a></dd>
+            	     	 	    			<dd><a href="#">鞋履 Shoes</a></dd>
+            	     	 	    			<dd><a href="#">配饰 Accessories</a></dd>
+            	     	 	    			<dd><a href="#">服装 Clothes</a></dd>
+            	     	 	    			<dd><a href="#"><img src="img/14730669701725271213.jpg" width="310px"/></a></dd>
+            	     	 	    		</dl>
+            	     	 	    		<dl class="dl3">
+            	     	 	    			<dt><a href="#">女士 Woman</a></dt>
+            	     	 	    			<dd><a href="#">包装 Bags</a></dd>
+            	     	 	    			<dd><a href="#">鞋履 Shoes</a></dd>
+            	     	 	    			<dd><a href="#">配饰 Accessories</a></dd>
+            	     	 	    			<dd><a href="#">服装 Clothes</a></dd>
+            	     	 	    			<dd><a href="#"><img src="img/147306697228511379.jpg" width="310px"/></a></dd>
+            	     	 	    		</dl>            	     	 	    		
+            	     	 	    	</div>
+            	     	 	    	
+             	     	 	    	<div class="all_new_shop">
+            	     	 	    		<a href="#">所有男仕特惠</a>
+            	     	 	    		<a href="#">所有女士特惠</a>
+            	     	 	    	</div>  
+            	     	 	    </div>             	     	 	
+            	     	 	</li>
+            	     	 	<li><a href="#" class="menu9"><img src="img/mzine.jpg" /></a></li>          	     	 	
+           	     	 </ul>
+           	     </div>          
+		</div>
+		
+		<!-------------------------------main主题----------------------------------->
+	        <div id="main">
+		<!----------------------------轮播banner图--------------------------->
+	        	
+	        	<div class="banner">
+	        		<a href="bargains.html"><img src="img/14742834771569003841.jpg" /></a>
+	        		<a href="bargains.html"><img src="img/1474283515742256133.jpg"  /></a>
+	        		<a href="bargains.html"><img src="img/1474283541357803250.jpg"  /></a>
+	        	    <a href="bargains.html"><img src="img/1474283618555928495.jpg"  /></a>
+	        	    <a href="bargains.html"><img src="img/14743542131233016171.jpg"  /></a>
+	        	    <span class="prev"></span>
+	        	    <span class="next"></span>
+	        	</div>
+	        	<!--***********************weekly*************************-->
+	            <div class="weekly">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				Special Offer <br  />
+	            				特别推荐
+	            			</p>	            		
+	            	</div>
+	            	<div class="show_pic">
+	            		  <div class="pic_left">
+	            		  	 <a class="pic1" href="bargains.html"><img src="img/1474194089820139207.jpg" /></a>
+	            		  	 <a href="bargains.html"><img src="img/14741941001767262253.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_center">
+	            		  	<a href="bargains.html"><img src="img/14741940931751266901.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_right">
+	            		  	<a class="pic1" href="bargains.html"><img src="img/14741940971610346823.jpg" /></a>
+	            		  	<a href="bargains.html"><img src="img/1474194103859945987.jpg" /></a>
+	            		  </div>
+	            	</div>
+	            </div>
+	            <!------------------weekly复制1------------------------>
+	             <div class="weekly">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				Editor's Pick <br  />
+	            				编辑推荐
+	            			</p>	            		
+	            	</div>
+	            	<div class="show_pic">
+	            		  <div class="pic_left">
+	            		  	 <a class="pic1" href="bargains.html"><img src="img/14741941131029145501.jpg" /></a>
+	            		  	 <a href="bargains.html"><img src="img/14741941231219050712.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_center">
+	            		  	<a href="bargains.html"><img src="img/14743527522103994944.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_right">
+	            		  	<a class="pic1" href="bargains.html"><img src="img/14741941191363516859.jpg" /></a>
+	            		  	<a href="bargains.html"><img src="img/14741941251678576744.jpg" /></a>
+	            		  </div>
+	            	</div>
+	            </div>
+	            <!------------------weekly复制2----------------------------->
+	            <div class="weekly">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				For Him <br  />
+	            				男仕精选
+	            			</p>	            		
+	            	</div>
+	            	<div class="show_pic">
+	            		  <div class="pic_left">
+	            		  	 <a class="pic1" href="bargains.html"><img src="img/1474194137178791249.jpg" /></a>
+	            		  	 <a href="bargains.html"><img src="img/14741941461736091471.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_center">
+	            		  	<a href="bargains.html"><img src="img/147419414132792295.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_right">
+	            		  	<a class="pic1" href="bargains.html"><img src="img/1474194143504554920.jpg" /></a>
+	            		  	<a href="bargains.html"><img src="img/14741941491891656544.jpg" /></a>
+	            		  </div>
+	            	</div>
+	            </div>	 
+	            <!---------------------weekly复制3----------------------------------->
+	            <div class="weekly">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				For Her <br  />
+	            				女士精选
+	            			</p>	            		
+	            	</div>
+	            	<div class="show_pic">
+	            		  <div class="pic_left">
+	            		  	 <a class="pic1" href="bargains.html"><img src="img/14741941511286588028.jpg" /></a>
+	            		  	 <a href="bargains.html"><img src="img/147419416294756905.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_center">
+	            		  	<a href="bargains.html"><img src="img/14741941561917225896.jpg" /></a>
+	            		  </div>
+	            		  <div class="pic_right">
+	            		  	<a class="pic1" href="bargains.html"><img src="img/14741941592078300337.jpg" /></a>
+	            		  	<a href="bargains.html"><img src="img/14741941661022346637.jpg" /></a>
+	            		  </div>
+	            	</div>
+	            </div>	
+	              <!--------------------正被选购BEING SOLD------------------------------>
+	            <!--需要ajax取 经常变化-->
+	            <div class="be_sold">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				BEING SOLD<br  />
+	            				正被选购
+	            			</p>	            		
+	            	</div>
+	            	<div class="shop_info_banner">
+	            		<div class="be_sold_prev btn">
+	            			<p class="be_sold_prev_pic"></p>
+	            		</div>
+	            		<div class="be_sold_next btn">
+	            			<p class="be_sold_next_pic"></p>
+	            		</div>
+	            		<!--图片区域-->
+			            	<ul class="be_sold_ul">
+			        
+			            		
+			            	</ul>	            		
+	            	</div>
+	            </div>
+	            
+	            <!------------------------时尚专题----------------------------->
+	            <div class="editor">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				M TRENDS<br  />
+	            				时尚专题推荐
+	            			</p>	            		
+	            	</div>
+	            	<div class="editor_pic">
+	            		<a href="#">
+	            			<img src="img/1474270360236478376.jpg" />
+	            			<span>爆款集中地，时装周走起</span>
+	            		</a>
+	            		<a href="#">
+	            			<img src="img/1474178866804639849.jpg" />
+	            		    <span>想变身男神，这些单品必不可少</span>
+	            		</a>
+	            		<a href="#">
+	            			<img src="img/1474179829700934735.jpg" />
+	            			<span>孔孝真又带着最时髦的衣服来了</span>
+	            		</a>
+	            	</div>
+	            </div>
+	            
+	            <!---------------------清凉一夏---------------->
+	            <div class="summer">
+	            	<a href="#"><img src="img/mzine2.jpg" /></a>
+	            </div>
+	            
+	            <!---------------------体验更多---------------->
+	            <div class="editor">
+	            	<div class="suggest">
+	            		<div class="middle_line">
+	            		</div>
+	            			<p class="offer">
+	            				SUBSCRIBE & DOWNLOAD<br  />
+	            				体验更多
+	            			</p>	            		
+	            	</div>
+	            	<div class="editor_pic">
+	            		<a href="###">
+	            			<img src="img/nb01.jpg" />
+	            		</a>
+	            		<a href="javascript:;">
+	            			<img src="img/nb02.jpg" />
+	            			<div class="e_mail">
+	            				<div class="e_txt">
+	            					<input class="e_ipt" type="text" value="请填写您的E-mail"  />
+	            				    <span class="e_span">即刻订阅</span>
+	            				</div>
+	            			</div>
+	            		</a>
+	            		<a href="#">
+	            			<img src="img/ewm_indexmid1.jpg" />
+	            		</a>
+	            	</div>
+	            </div>	            	
+	        </div>
+	        <!-----------------------------底部footer-------------------------->
+	        <div id="footer">
+	        	  <div class="help_intro">
+	        	  	<ul>
+	        	  		<li>购物指南</li>
+	        	  		<li><a href="javascript:;">购物流程</a></li>
+	        	  		<li><a href="javascript:;">配送方式</a></li>
+	        	  	</ul>
+	        	  	<ul>
+	        	  		<li>支付方式</li>
+	        	  		<li><a href="javascript:;">如何付款</a></li>
+	        	  		<li><a href="javascript:;">发票制度</a></li>
+	        	  	</ul>
+	        	  	<ul>
+	        	  		<li>商品说明</li>
+	        	  		<li><a href="javascript:;">商品尺码</a></li>
+	        	  		<li><a href="javascript:;">商品包装</a></li>
+	        	  	</ul>
+	        	  	<ul>
+	        	  		<li>客服中心</li>
+	        	  		<li><a href="javascript:;">七天退换</a></li>
+	        	  		<li><a href="javascript:;">常见问题</a></li>
+	        	  	</ul>	 	        	  	
+	        	  	<ul class="hot_phone">
+	        	  		<li class="word_phone">订购热线</li>
+	        	  		<li class="num_phone">4000-250-630</li>
+	        	  	</ul>	        	  	
+	        	  	<ul class="ke_fu">
+	        	  		<li>在线客服</li>
+	        	  		<li class="qq" title="QQ咨询"></li>
+	        	  		<li class="music"></li>
+	        	  	</ul>
+	        	  	<ul class="er_weima">
+	        	  		<li class="er_weima1">
+	        	  			<span>美西时尚APP</span> <br />
+	        	  			<img src="img/ewm_indexbot1.png"  />
+	        	  		</li>
+	        	  		<li class="er_weima_2">
+	        	  			<span>关注我们</span> <br />
+	        	  			<img src="img/ewm_wx.png"  />
+	        	  		</li>
+	        	  	</ul>	        	  	        	  	
+	        	  </div>
+	        </div>
+	        <!----------------------底部导航栏--------------------------------->
+	        <div id="footer_nav">
+	        	<ul class="sub_nav">
+	        		<li><a href="javascript:;">首页</a></li>
+	        		<li><a href="javascript:;">关于美西</a></li>
+	        		<li><a href="javascript:;">媒体报道</a></li>
+	        		<li><a href="javascript:;">正品保证</a></li>
+	        		<li><a href="javascript:;">业务合作</a></li>
+	        		<li><a href="javascript:;">隐私声明</a></li>
+	        		<li><a href="javascript:;">加入美西</a></li>
+	        		<li><a href="javascript:;">网站地图</a></li>
+	        		<li><a href="javascript:;">联系我们</a></li>	        		
+	        	</ul>
+	        </div>
+	        <!------------------------底部链接-------------------------------->
+	        <div id="footer_link">
+                 <div class="footer_link_content">
+                 	<ul>
+                 		<li class="link1"><a href="#"></a></li>
+                 		<li class="link2"><a href="#"></a></li>
+                 		<li class="link3"></li>
+                 		<li class="link4"><a href="#"></a></li>
+                 		<li class="link5"><a href="#"></a></li>
+                 		<li class="link6"><a href="#">MEICI · CLUB</a></li>
+                 	</ul>
+                 </div>
+	        </div>
+	        <!-----------------------copyright------------------------------->
+	        <div class="copyright">
+	             <p class="p1">
+	             	Copyright © 2008-2016 美西时尚-
+	             	<a href="#">高端时尚生活电商</a>
+	             </p>
+	             <p class="p2"><a href="#">沪ICP备09001221号</a></p>
+	        </div>
+	        
+	        <!----------------------------safe------------------------------->
+	        <div class="safe">
+	        	<a href="#" class="safe_a1"><img src="img/hy_83x30.png" /></a>
+	        	<a href="#" class="safe_a2"><img src="img/ssgs (1).gif" /></a>
+	        </div>
+	    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
